@@ -1,0 +1,58 @@
+html {
+        font-size: 14px;
+        font-size: 87.5%;
+        }    
+         
+body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;}
+
+
+
+#map { 
+        position:absolute;
+        top:0px;
+        left:0px;
+        width: 100vw; 
+        height: 100vh; 
+        z-index: 0;
+        }  
+
+
+.leaflet-pane > svg .d3-overlay path{
+             pointer-events: fill;}
+
+
+
+img.leaflet-tile{
+             filter:  grayscale(85%) saturate(150%) hue-rotate(60deg) contrast(90%) brightness(110%);
+            -webkit-filter:    grayscale(85%) saturate(150%) hue-rotate(60deg) contrast(90%) brightness(110%);      
+}      
+      
+svg {
+  position: relative;
+}
+
+path {
+  fill: #000;
+  fill-opacity: .2;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+path:hover {
+  fill: brown;
+  fill-opacity: .7;
+}
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
